@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 50% 50%;
+}
+
+.image {
+    margin: 30px 20px;
+}
+
+.boxb{
+    margin: 30px 20px;
+}
+
+.title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.sub-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.email {
+    margin: 40px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.email-input {
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 80px;
+    font-size: 20px;
+    color: #f6f1e95b;
+    background-image: url(./image/icons8-user-50.png);
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-position: 20px 10px;
+}
+
+.password {
+    margin: 30px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.password-input {
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 80px;
+    font-size: 20px;
+    color: #f6f1e95b;
+    background-image: url(./image/icons8-lock.svg);
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-position: 15px 8px;
+}
+
+p {
+    text-align: right;
+    margin-right: 170px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #408E91;
+}
+
+.btn-box {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    margin: 25px 20px;
+    padding: 15px 215px;
+    font-size: 24px;
+    border-radius: 20px;
+    background-color: #FF8400;
+    color: #4F200D;
+    cursor: pointer;
+}
+
+.or {
+    font-size: 32px;
+    text-align: center;
+}
+
+.login1 {
+    display: flex;
+    justify-content: center; 
+}
+
+.google {
+    margin: 25px 20px;
+    padding: 10px 150px;
+    font-size: 24px;
+    border: 5px solid black;
+    border-radius: 20px;
+    color: #4F200D;
+    cursor: pointer;
+    background-image: url(./image/icons8-google-30.png);
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-position: 90px 8px;
+}
+
+.login2 {
+    display: flex;
+    justify-content: center; 
+}
+
+.facebook {
+    margin: 5px 20px;
+    padding: 10px 140px;
+    font-size: 24px;
+    border: 5px solid black;
+    border-radius: 20px;
+    color: #4F200D;
+    cursor: pointer;
+    background-image: url(./image/icons8-facebook-24.png);
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-position: 90px 8px;
+}
